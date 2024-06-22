@@ -3,16 +3,56 @@ A simple and intuitive Admin Dashboard application built with React.
 
 ## Usage
 
-- Navigate through different sections using the sidebar menu.
+-Customizable Themes:
 
-- Customize themes using the theme switcher component.
+Use the theme switcher component in the sidebar to toggle between light, dark, and custom themes.
+Customize your own theme colors by selecting from predefined options or entering custom color codes.
 
-- Manage tables dynamically by creating, editing, and deleting tables.
 
-- Visualize data with interactive charts.
+-Tables Management:
 
-- Schedule events and manage tasks using the calendar and Kanban board.                                                                                                                                          
-- Manage user accounts and permissions in the user management section.
+Navigate to the Tables section in the sidebar menu.
+Create new tables by specifying the number of rows and columns, and provide a title for each table.
+Edit existing tables by adding, removing, or modifying rows and columns.
+Delete tables that are no longer needed from the dashboard.
+
+
+-Interactive Charts:
+
+Explore the Charts section in the sidebar to view different types of charts available (e.g., line charts, bar charts, pie charts).
+Interact with charts by zooming in/out, panning across data, and hovering over data points for details.
+Customize chart settings such as labels, colors, and data ranges for better visualization.
+
+
+-Calendar Integration:
+
+Manage schedules and events using the Calendar section accessible from the sidebar.
+Add new events with specific dates, descriptions, and optional reminders.
+Edit or delete existing events directly from the calendar view.
+Kanban Board:
+
+Organize tasks and workflows efficiently with the Kanban Board section in the sidebar.
+Create new tasks by entering task details and assigning them to different stages (e.g., To Do, In Progress, Done).
+Drag and drop tasks between stages to reflect their current status and track progress visually.
+
+
+-User Management:
+
+Access the User Management section from the sidebar to manage user accounts and permissions.
+Add new users by specifying their roles and permissions within the application.
+Remove user accounts as necessary to maintain access control and security.
+
+
+-Responsive Design:
+
+Experience seamless navigation and usability across desktop, tablet, and mobile devices.
+Responsive layouts adapt to different screen sizes, ensuring optimal viewing and interaction.
+
+
+-Data Persistence:
+
+Utilize local storage to persist user preferences, theme settings, and task data across sessions.
+Changes made to tables, charts, calendar events, and user management settings are retained locally for continuity.
 
 ## Installation
 
