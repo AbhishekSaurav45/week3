@@ -1,70 +1,52 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
-### `npm start`
+npm start
+Runs the app in development mode.
+Open http://localhost:3000 to view it in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
+npm run build
+Builds the app for production to the build folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Usage
+Navigate through different sections using the sidebar menu.
+Customize themes using the theme switcher component.
+Manage tables dynamically by creating, editing, and deleting tables.
+Visualize data with interactive charts.
+Schedule events and manage tasks using the calendar and Kanban board.
+Manage user accounts and permissions in the user management section.
+Testing
+Functionality Testing
+Theme Customization:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Switch between light, dark, and custom themes.
+Verify that the dashboard appearance changes accordingly.
+Tables Management:
 
-### `npm run eject`
+Create a new table with specified rows and columns.
+Edit an existing table by modifying rows or columns.
+Delete a table and verify it is removed from the dashboard.
+Charts Visualization:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+View different types of charts (line, bar, pie) with sample data.
+Interact with the charts (zoom, pan) and verify data representation.
+Calendar Functionality:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add new events to the calendar with specific dates and descriptions.
+Edit or delete existing events and verify changes are reflected.
+Kanban Board Operations:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create new tasks and move them across different stages (e.g., To Do, In Progress, Done).
+Edit task details (title, description) and verify updates.
+Delete tasks and ensure they are removed from the board.
+User Management:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Add new users with specified roles and permissions.
+Delete existing users and verify they are no longer listed.
+Responsive Design:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Test the application on different screen sizes (desktop, tablet, mobile).
+Ensure components and layouts adapt correctly to each screen size.
